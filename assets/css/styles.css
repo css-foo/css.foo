@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@200;300&display=swap');
 @import url('https://fonts.cdnfonts.com/css/agencyfb-2');
 @import url('https://fonts.googleapis.com/css?family=Electrolize');
-@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tangerine&display=swap');
 
 /*  RESET --------------------------------------------
 */  *:before, *:after, *, ::after, ::before {box-sizing: border-box;}
@@ -28,7 +28,7 @@
       --stroke-opacity: 1;
       --font-family-01: 'Oxanium', 'Electrolize', sans-serif;
       --font-family-02: 'Markazi Text', serif;
-      --font-family-03: 'Poiret One', cursive;
+      --font-family-03: 'Tangerine', cursive;
     }
 
 
