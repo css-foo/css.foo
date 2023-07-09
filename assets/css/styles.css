@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@200;300&display=swap');
 @import url('https://fonts.cdnfonts.com/css/agencyfb-2');
 @import url('https://fonts.googleapis.com/css?family=Electrolize');
+@import url('https://fonts.googleapis.com/css2?family=Markazi+Text&family=Teko:wght@300;400;500;600;700&display=swap');
 
 /*  RESET --------------------------------------------
 */  *:before, *:after, *, ::after, ::before {box-sizing: border-box;}
@@ -25,6 +26,9 @@
       --grid-gap: 1rem;
       --aside-display: none;
       --stroke-opacity: 1;
+      --font-family-01: 'Oxanium', 'Electrolize', sans-serif;
+      --font-family-02: 'Markazi Text', serif;
+      --font-family-03: 'Teko', sans-serif;	
     }
 
 
@@ -340,7 +344,7 @@ input {
 body {
   background-color: rgba(var(--bg-color), var(--bg-opacity));
   color: rgba(var(--txt-color), var(--txt-opacity));
-  font-family: 'Oxanium', 'Electrolize', sans-serif;
+  font-family: var(-font-family-01);
   font-size: 1rem;
   text-shadow: var(--txt-shadow);
 }
