@@ -344,7 +344,7 @@ input {
 body {
   background-color: rgba(var(--bg-color), var(--bg-opacity));
   color: rgba(var(--txt-color), var(--txt-opacity));
-  font-family: var(-font-family-01);
+  font-family: var(--font-family-03);
   font-size: 1rem;
   text-shadow: var(--txt-shadow);
 }
