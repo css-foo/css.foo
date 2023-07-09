@@ -154,8 +154,8 @@
 /*  ALL PANELS ----------------------------------
 */  app-container > * {
       display: grid;
-      background-color: rgba(var(--bg-panel-color),
-        var(--bg-panel-opacity));
+      /*background-color: rgba(var(--bg-panel-color),
+        var(--bg-panel-opacity));*/
       overflow: hidden;
       align-content: start;
     }
