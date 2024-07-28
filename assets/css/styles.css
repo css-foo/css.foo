@@ -452,7 +452,19 @@ html::after {
 
 span-bold {font-weight: 900;}
 
-iframe {background-color: transparent;}
+iframe {
+  background-color: transparent;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+iframe::before {
+  content: '';
+  display: block;
+  height: 0;
+  overflow: hidden;
+}
 
 panel-list div {overflow: auto;}
 
